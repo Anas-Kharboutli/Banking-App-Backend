@@ -12,7 +12,6 @@ async function main () {
 }
 main().catch(error => console.error(error));
 
-
 //function to create and stored account data 
 //plus it generates 10 digits account number
 async function create ({userName, email, password}) {
