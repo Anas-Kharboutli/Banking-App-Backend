@@ -4,7 +4,7 @@ const bcrypt  = require('bcrypt');
 const dal     = require('./dal');
 
 const app  = express();
-const port = 3000;
+const port = 80;
 
 app.use(cors());
 app.use(express.json());
